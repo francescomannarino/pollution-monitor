@@ -7,5 +7,32 @@
       "level": "Buona",
       "color": "#00e400"
     }
+  },
+  {
+    "timestamp": "2025-07-15T21:29:21.745502",
+    "pm25": 5.8,
+    "pm10": 15.5,
+    "quality": {
+      "level": "Buona",
+      "color": "#00e400"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T21:43:36.191654",
+    "pm25": 6.0,
+    "pm10": 13.5,
+    "quality": {
+      "level": "Buona",
+      "color": "#00e400"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T21:45:19.244913",
+    "pm25": 6.1,
+    "pm10": 16.1,
+    "quality": {
+      "level": "Buona",
+      "color": "#00e400"
+    }
   }
 ]
