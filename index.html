@@ -97,6 +97,15 @@
             padding: 30px;
             margin-bottom: 30px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            height: 400px;
+            max-width: 100%;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+            width: 100%;
         }
         
         .chart-title {
@@ -209,7 +218,9 @@
             
             <div class="chart-container">
                 <h3 class="chart-title">Andamento Inquinamento</h3>
-                <canvas id="pollutionChart"></canvas>
+                <div class="chart-wrapper">
+                    <canvas id="pollutionChart"></canvas>
+                </div>
             </div>
             
             <div id="last-update" class="last-update"></div>
@@ -328,25 +339,51 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    devicePixelRatio: 1,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
                     scales: {
                         y: {
                             beginAtZero: true,
                             title: {
                                 display: true,
-                                text: 'Concentrazione (μg/m³)'
+                                text: 'μg/m³'
+                            },
+                            grid: {
+                                display: true,
+                                color: 'rgba(0,0,0,0.1)'
                             }
                         },
                         x: {
                             title: {
                                 display: true,
                                 text: 'Tempo'
+                            },
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                maxTicksLimit: 6
                             }
                         }
                     },
                     plugins: {
                         legend: {
                             display: true,
-                            position: 'top'
+                            position: 'top',
+                            labels: {
+                                usePointStyle: true,
+                                padding: 20
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0,0,0,0.8)',
+                            titleColor: 'white',
+                            bodyColor: 'white',
+                            borderColor: 'rgba(255,255,255,0.2)',
+                            borderWidth: 1
                         }
                     }
                 }
