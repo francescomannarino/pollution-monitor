@@ -853,5 +853,14 @@
       "level": "Buona",
       "color": "#00e400"
     }
+  },
+  {
+    "timestamp": "2025-07-18T13:30:02.437488",
+    "pm25": 5.0,
+    "pm10": 11.4,
+    "quality": {
+      "level": "Buona",
+      "color": "#00e400"
+    }
   }
 ]
