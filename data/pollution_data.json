@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2025-11-17T20:00:02.378278",
-    "pm25": 2.9,
-    "pm10": 11.1,
-    "quality": {
-      "level": "Buona",
-      "color": "#00e400"
-    }
-  },
-  {
     "timestamp": "2025-11-17T20:30:02.734076",
     "pm25": 3.4,
     "pm10": 13.9,
@@ -8997,6 +8988,15 @@
     "quality": {
       "level": "Moderata",
       "color": "#ffff00"
+    }
+  },
+  {
+    "timestamp": "2025-12-08T21:30:02.196489",
+    "pm25": 25.2,
+    "pm10": 33.2,
+    "quality": {
+      "level": "Sensibile",
+      "color": "#ff7e00"
     }
   }
 ]
