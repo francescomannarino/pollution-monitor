@@ -1,14 +1,5 @@
 [
   {
-    "timestamp": "2025-11-22T08:30:01.592752",
-    "pm25": 1.3,
-    "pm10": 1.8,
-    "quality": {
-      "level": "Buona",
-      "color": "#00e400"
-    }
-  },
-  {
     "timestamp": "2025-11-22T09:00:02.611117",
     "pm25": 2.1,
     "pm10": 3.5,
@@ -8994,6 +8985,15 @@
     "timestamp": "2025-12-13T08:30:02.382295",
     "pm25": 16.2,
     "pm10": 22.3,
+    "quality": {
+      "level": "Moderata",
+      "color": "#ffff00"
+    }
+  },
+  {
+    "timestamp": "2025-12-13T09:00:02.162765",
+    "pm25": 16.6,
+    "pm10": 23.0,
     "quality": {
       "level": "Moderata",
       "color": "#ffff00"
