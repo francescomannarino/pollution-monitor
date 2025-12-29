@@ -1,26 +1,26 @@
 {
-  "last_update": "2025-12-29T18:00:02.288945",
+  "last_update": "2025-12-29T18:30:02.031749",
   "current": {
-    "timestamp": "2025-12-29T18:00:02.288945",
-    "pm25": 99.6,
-    "pm10": 124.7,
+    "timestamp": "2025-12-29T18:30:02.031749",
+    "pm25": 18.3,
+    "pm10": 24.0,
     "quality": {
-      "level": "Molto malsana",
-      "color": "#8f3f97"
+      "level": "Moderata",
+      "color": "#ffff00"
     }
   },
   "stats": {
     "pm25": {
-      "current": 99.6,
-      "avg_24h": 20.352083333333336,
+      "current": 18.3,
+      "avg_24h": 20.554166666666667,
       "max_24h": 99.6,
-      "min_24h": 8.6
+      "min_24h": 9.0
     },
     "pm10": {
-      "current": 124.7,
-      "avg_24h": 27.316666666666663,
+      "current": 24.0,
+      "avg_24h": 27.54375,
       "max_24h": 124.7,
-      "min_24h": 13.1
+      "min_24h": 13.8
     },
     "total_readings": 1000
   }
